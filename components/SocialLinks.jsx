@@ -15,7 +15,6 @@ const SocialLinks = () => {
             case "Snapchat":
               return (
                 <a href={link.url}>
-                  {" "}
                   <Image
                     src={snapchat}
                     alt={"SocialLink"}
@@ -27,7 +26,6 @@ const SocialLinks = () => {
             case "Facebook":
               return (
                 <a href={link.url}>
-                  {" "}
                   <Image
                     src={facebook}
                     alt={"SocialLink"}
@@ -39,7 +37,6 @@ const SocialLinks = () => {
             case "Instagram":
               return (
                 <a href={link.url}>
-                  {" "}
                   <Image
                     src={instagram}
                     alt={"SocialLink"}
@@ -51,7 +48,6 @@ const SocialLinks = () => {
             case "Twitter":
               return (
                 <a href={link.url}>
-                  {" "}
                   <Image
                     src={twitter}
                     alt={"SocialLink"}
